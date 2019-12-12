@@ -20,7 +20,7 @@ import { Component, Inject } from '@angular/core';
 @Component({
   selector: 'prefs-component',
   //template: '<div><h1>testt</h1></div>',
-  templateUrl: 'test.component.html'
+  templateUrl: './test.component.html'
 })
 export class TestComponent {
   prefs;

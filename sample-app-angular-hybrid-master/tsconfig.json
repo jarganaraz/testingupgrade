@@ -1,0 +1,20 @@
+{
+  "files": [
+    "app/main.ts",
+    "app/contacts/contacts.module.ts"
+  ],
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "outDir": "transpiled/app",
+    "declaration": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom"]
+  }
+}
